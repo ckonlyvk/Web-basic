@@ -1,4 +1,4 @@
-# Đây là dự án để giúp chúng ta chuẩn bị tốt hơn cho môn học phát triển ứng dụng Web. Mỗi tuần chúng ta sẽ có slide và bài tập deadline của khóa học cũ (K17) + 1 đồ án giữa kỳ + 1 đồ án cuối kỳ được up lên branch master.
+# Đây là dự án để giúp chúng ta chuẩn bị tốt hơn cho môn học phát triển ứng dụng Web. Mỗi tuần chúng ta sẽ có slide và bài tập deadline của khóa học cũ (K17) + 1 đồ án giữa kỳ + 1 đồ án cuối kỳ được up lên branch master.(Deadline là thứ 4 mỗi tuần không đúng hạn auto bị kick)
 #Mỗi người tạo 1 branch riêng và up lên branch đấy nhé #GoodLuck!!!!!
 # Lộ Trình
 #Tuần 1: Giới thiệu
