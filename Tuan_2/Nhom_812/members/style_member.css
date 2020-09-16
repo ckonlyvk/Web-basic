@@ -1,0 +1,48 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+#header{
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#content{
+    margin: 0 20%;
+    margin-top: 3%;
+    height: auto;
+}
+
+#img_member{
+    padding-left: 10%;
+    width: 40%;
+    float: left;
+    background-size: 40%;
+}
+
+#info_member{
+    padding-top: 10%;
+    padding-left: 10%;
+    width: 60%;
+    float: left;
+    font-size: 20px;
+}
+
+li{
+    padding: 5px;
+}
+
+#footer{
+    text-align: center;
+    padding-top: 50px;
+}
+
+#footer hr {
+    width: 90%;
+}
+
+#img_member img {
+    width: 100%;
+}
