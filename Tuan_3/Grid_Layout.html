@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid Layout</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            /* * {
+                margin: 0px;
+                border: 0.5px solid rgb(28, 28, 138);
+            }
+            .container{
+                display: grid;
+                grid-template-rows: 80px 556px 80px;
+            }
+
+            .container-child{
+                display: grid;
+                grid-template-columns: 25% 75%;
+            }
+
+            .header, .footer{
+                background-color:rgb(216, 185, 252);
+            }
+
+            .sidebar{
+                background-color: rgb(241, 157, 128);
+            }
+
+            .main-content{
+                background-color:rgb(250, 244, 187);    
+            } */
+            * {
+                margin: 0px;
+                border: 0.5px solid rgb(28, 28, 138);
+            }
+            .container{
+                display: grid;
+                grid-template-columns: 25% 25% 25% 25%;
+                grid-template-rows: 80px 556px 80px;
+            }
+
+
+            .header, .footer {
+                grid-column: 1 / 5; 
+                background-color:rgb(216, 185, 252);
+            }
+
+            .sidebar{   
+                grid-column: 1 / 2;        
+                background-color: rgb(241, 157, 128);
+            }
+
+            .main-content{
+                grid-column: 2 / 5;
+                background-color:rgb(250, 244, 187);    
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">Header</div>
+            <div class="sidebar">Sidebar</div>
+            <div class="main-content">Main content</div>
+            <div class="footer">Footer</div>
+        </div>
+        
+    </body>
+</html>

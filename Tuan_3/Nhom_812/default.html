@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Thông tin nhóm 812</title>
+        <style type="text/css">
+            * {
+                box-sizing: border-box;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 18px;
+                margin: 0;
+            }
+
+            .container{
+                display: grid;
+                grid-template-columns: 20% 20% 20% 20% 20%;
+                grid-template-rows: 100px 140px 100px 100px 100px auto;
+            }
+
+            #header{
+                grid-column: 1/6;
+                text-align: center;
+                font-size: 40px;
+                font-weight: bold;
+                margin: auto 0px;
+            }
+
+            #img-background{
+                grid-column: 1/4;
+                grid-row: 2/7;
+                text-align: center;
+                border-right: 3px dashed black;
+            }
+
+            #content {
+                grid-column: 4/6;
+                height: fit-content;
+                margin: auto 0px;
+                font-weight: bold;
+            }
+
+            #content p {
+                text-align: center;
+            }
+            
+            .info_member{
+                grid-column: auto;
+                background-color: rgb(214, 252, 250);
+                font-style: italic;
+                text-align: center;
+                border: 1px solid black;
+                border-radius: 50px;
+                min-width: 200px;
+                width: 50%;
+                margin: 0 auto;
+                height: fit-content;
+                grid-column: 4/6;
+                padding: 20px 0px;
+            }
+
+            .info_member:hover{
+                background-color: rgb(91, 230, 223);
+            }
+
+            .info_member p {
+                margin: 2px;
+            }
+
+            .info_member:nth-child(4){
+                grid-row: 5;
+            }
+
+            .info_member:nth-child(6){
+                grid-row: 4;
+            }
+
+            .info_member:nth-child(5){
+                grid-row: 3;
+            }
+
+            li {
+                padding: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div id="header">NHÓM 812</div>
+            <div id="img-background">
+                <map name="img_map">
+                    <area shape="circle" coords="150, 335, 70" href="members/18120322/18120322.html" title="Lưu Thiện Đức">
+                    <area shape="circle" coords="375, 325, 70" href="members/18120318/18120318.html" title="Lý Hán Đồng">
+                    <area shape="circle" coords="610, 320, 70" href="members/18120321/18120321.html" title="Huỳnh Thanh Đức">        
+                    </map>
+                <img src="images/nhom_812.jpg" width="85%" height="auto" usemap="#img_map"/>
+            </div>
+            <div id="content">
+                <p>THÔNG TIN CỦA NHÓM 812</p>
+                <br/>
+                <ul>
+                    <li>Tên nhóm: <span style="font-weight: normal;">Nhóm 812</span></li>
+                    <li >Thông tin thành viên:</li>
+                </ul>
+            </div>
+            <div class="info_member">
+                <p>Lưu Thiện Đức</p>
+                <p>Giới tính: Nam</p>
+            </div>
+            <div class="info_member">
+                <p>Lý Hán Đồng</p>
+                <p>Giới tính: Nam</p>
+            </div>
+            <div class="info_member">
+                <p>Huỳnh Thanh Đức</p>
+                <p>Giới tính: Nam</p>
+            </div>
+        </div>
+    </body>
+</html>

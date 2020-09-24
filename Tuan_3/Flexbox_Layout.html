@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flexbox Layout</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            * {
+                margin: 0px;
+                border: 0.5px solid rgb(238, 132, 132);
+            }
+            .container{
+                display: flex;
+                flex-direction: column;
+                border: none;
+            }
+
+            .container-child{
+                display: flex;
+                flex-direction: row;
+            }
+
+            .header, .footer{
+                background-color: cyan;
+                min-height: 80px;
+            }
+
+            .sidebar{
+                background-color: rgb(241, 195, 179);
+                width: 20%;
+                min-height: 551px;
+            }
+
+            .main-content{
+                background-color: rgb(158, 202, 247);
+                flex-grow: 1;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">Header</div>
+            <div class="container-child">
+                <div class="sidebar">Sidebar</div>
+                <div class="main-content">Main content</div>
+            </div>
+            <div class="footer">Footer</div>
+        </div>
+        
+    </body>
+</html>
