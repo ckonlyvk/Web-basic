@@ -3,6 +3,7 @@ function CheckNum() {
     var num2 = document.getElementById("num2");
     var notify = document.getElementById("notify");
     if (isNaN(num1.value) || isNaN(num2.value)) {
+
         notify.innerHTML = "Số không hợp lệ";
         return false;
     }
@@ -14,6 +15,7 @@ function Calculate() {
     var num2 = document.getElementById("num2");
     var notify = document.getElementById("notify");
     if (num1.value == "" || num2.value == "") {
+
         notify.innerHTML = "Hãy điền vào ô trống";
         return false;
     }
@@ -48,6 +50,6 @@ function Reset() {
     var num2 = document.getElementById("num2");
     var notify = document.getElementById("notify");
     var answer = document.getElementById("answer");
-    num1.value = num2.value = notify.innerHTML = answer.value = "";
-
+    num1.value = num2.value = answer.value = "";
+    notify.innerHTML = "";
 }
