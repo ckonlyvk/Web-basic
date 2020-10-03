@@ -1,0 +1,84 @@
+* {
+    margin: auto 0px;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 30% 8% 22% 20% 20%;
+    grid-template-rows: 100px 40px 40px 40px 40px;
+}
+
+#header{
+    grid-column: 2/6;
+}
+
+.label:nth-child(2){
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.label:nth-child(3){
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.label:nth-child(4){
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+
+.label:nth-child(5){
+    grid-column: 2/3;
+    grid-row: 5/6;
+}
+
+.textbox input{
+    width: 90%;
+    min-height: 20px;
+    border: 1px solid black;
+    text-align: right;
+    padding: 5px;
+    outline-color: rgb(153, 224, 221);
+}
+
+.textbox:nth-child(6){
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.textbox:nth-child(7){
+    grid-column: 3/4;
+    grid-row: 3/4;
+
+}
+
+.textbox:nth-child(8){
+    grid-column: 3/4;
+    grid-row: 4/5;
+    
+}
+
+#notice{
+    grid-column: 3/5;
+    grid-row: 5/6;
+    color: red;
+}
+
+.control{
+    padding-left: 10%;
+}
+
+.control:nth-child(10){
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+
+.control:nth-child(11){
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+
+.control:nth-child(12){
+    grid-column: 4/5;
+    grid-row:4/5
+}

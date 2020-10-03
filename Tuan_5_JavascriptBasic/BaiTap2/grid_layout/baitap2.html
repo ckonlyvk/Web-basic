@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bài tập 2 - Bé tập tính</title>
+        <link type="text/css" rel="stylesheet" href="./style_bt2.css">
+        <script language="javascript" src="./baitap2.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <h1>Bé tập tính</h1>
+            </div>
+            
+            <div class="label"><label id="label_num1" for="num1">Số thứ nhất</label></div>
+            <div class="label"><label id="label_num2" for="num2">Số thứ hai</label></div>
+            <div class="label"><p>Kết quả</p></div>
+            <div class="label"><p>Thông báo</p></div>       
+
+            <div class="textbox"><input id="num1" type="text" onmouseleave="isNumber(this.id)"/></div>
+            <div class="textbox"><input id="num2" type="text" onmouseleave="isNumber(this.id)"/></div>
+            <div class="textbox"><input id="result" type="text" readonly/></div>
+            <div id="notice"></div><!--Giá trị nhập ở ô thứ nhất không phải là số-->
+
+            <div class="control">
+                <label><input name="pheptinh" type="radio" id="cong" value="cong"> Cộng</label>&emsp;
+                <label><input name="pheptinh" type="radio" id="tru" value="tru"> Trừ</label>
+            </div>
+            <div class="control">
+                <label><input name="pheptinh" type="radio" id="nhan" value="nhan"> Nhân</label>&emsp;
+                <label><input name="pheptinh" type="radio" id="chia" value="chia"> Chia</label>
+            </div>
+            <div class="control">
+                <button name="tinh" value="ok" type="button" onclick="calc2Num()">Tính</button>                     
+       
+        </div>
+
+    </body>
+</html>
