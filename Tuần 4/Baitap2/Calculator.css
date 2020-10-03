@@ -1,0 +1,48 @@
+.container {
+    background-color: #66CCFF;
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    border: 2px solid #DDDDDD;
+    border-radius: 35px;
+}
+
+.container h1 {
+    margin: 40px;
+    text-align: center;
+    border-bottom: 2px solid #DDDDDD;
+}
+
+.left {
+    width: 60%;
+    float: left;
+    padding-left: 20px;
+    font-weight: bold;
+    border-right: 2px solid #DDDDDD;
+}
+
+.left input {
+    height: 30px;
+    margin-left: 30px;
+}
+
+.right {
+    width: 30%;
+    float: left;
+}
+
+.right input {
+    margin: 12px;
+}
+
+.right .btn {
+    width: 60px;
+    height: 30px;
+}
+
+#notify {
+    display: inline-block;
+    margin-left: 30px;
+    color: #FF0000;
+    font-weight: bold;
+}

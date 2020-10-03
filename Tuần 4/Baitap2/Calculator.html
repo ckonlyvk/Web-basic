@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Bé tập tính</title>
+    <link type="text/css" rel="stylesheet" href="Calculator.css">
+    <script src="Calculator.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Bé tập tính</h1>
+        <form action="#">
+            <div class="left">
+                <table>
+                    <tr>
+                        <td><label for="num1">Số thứ nhất:</label></td>
+                        <td><input type="text" id="num1" onBlur="return CheckNum()"> <br></td>
+                    </tr>
+                    <tr>
+                        <td><label for="num2">Số thứ hai:</label></td>
+                        <td><input type="text" id="num2" onBlur="return CheckNum()"> <br></td>
+                    </tr>
+                    <tr>
+                        <td><label for="answer">Kết quả:</label></td>
+                        <td><input type="text" id="answer"> <br></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="right">
+                <input type="radio" id="sum" name="calculation" value="sum">
+                <label for="sum">Cộng</label>
+                <input type="radio" id="subtract" name="calculation" value="subtract">
+                <label for="sum">Trừ</label><br>
+                <input type="radio" id="multiple" name="calculation" value="multiple">
+                <label for="sum">Nhân</label>
+                <input type="radio" id="divide" name="calculation" value="divide">
+                <label for="sum">Chia</label><br>
+                <input type="button" class="btn" value="Tính" onclick="return Calculate()">
+                <input type="button" class="btn" value="Reset" onclick="Reset()">
+            </div><br>
+
+            <p id="notify"></p>
+
+        </form>
+    </div>
+</body>
+
+</html>
