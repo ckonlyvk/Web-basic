@@ -1,0 +1,46 @@
+.container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+}
+
+.homepage {
+    grid-area: 1/2/span 1/span 12;
+}
+
+.homepage h1 {
+    margin-left: 20px;
+    margin-top: 14px;
+    display: inline-block;
+}
+
+#homepage_img {
+    width: 50px;
+    height: auto;
+    float: left;
+}
+
+.img_box {
+    grid-area: 2/2/span 5/span4;
+}
+
+.info_box {
+    grid-area: 2/7/span 5/span5;
+}
+
+.header {
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.info_left {
+    grid-area: 2/2/span 5/span 3;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 3;
+}
+
+.info_right {
+    grid-area: 2/5/span 5/span 7;
+    font-size: 20px;
+    line-height: 3;
+}

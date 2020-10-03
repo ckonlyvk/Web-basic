@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Example for Grid Layout</title>
+    <style>
+        .container {
+            width: 100%;
+            display: grid;
+            grid-template-columns: auto auto auto auto auto;
+            grid-template-rows: 80px 500px 80px;
+        }
+        
+        .header {
+            background-color: #33CCFF;
+            grid-column: 1/span 5;
+        }
+        
+        .sidebar {
+            background-color: #CC33CC;
+            grid-column: 1/span 1;
+        }
+        
+        .main_content {
+            background-color: #6600CC;
+            grid-column: 2/span 4;
+        }
+        
+        .footer {
+            background-color: #33CCFF;
+            grid-column: 1/span 5;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            Header
+        </div>
+        <div class="sidebar">Side Bar</div>
+        <div class="main_content">Main Content</div>
+        <div class="footer">Footer</div>
+    </div>
+</body>
+
+</html>
