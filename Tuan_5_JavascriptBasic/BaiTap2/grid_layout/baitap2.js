@@ -33,8 +33,6 @@ function isValid(str_num1, str_num2){
         document.getElementById("notice").innerHTML = "Chưa điền đủ hai số hợp lệ"
         return false
     } else if (!isNumber("num1") || !isNumber("num2")){
-        //console.log(isNumber("num1") )
-        //console.log(isNumber("num2"))
         document.getElementById("notice").innerHTML = "Chưa điền đủ hai số hợp lệ"
         return false
     }
@@ -53,10 +51,8 @@ function calc2Num(){
     for(var i = 0; i < pheptinh.length; i++) {
 
         if(pheptinh[i].checked){
-            console.log("n1 = " + num1.value + ", n2 = " + num2.value)
-            if(isValid(num1.value, num2.value)){
-                console.log("Hop le")
 
+            if(isValid(num1.value, num2.value)){
                 var value_num1 = parseFloat(num1.value)
                 var value_num2 = parseFloat(num2.value)
                 
@@ -75,9 +71,7 @@ function calc2Num(){
                         break
                     default:
                 }
-
-                console.log(document.getElementById("result").value)
-                
+        
                 checked = true
                 break
             } else{
@@ -89,17 +83,4 @@ function calc2Num(){
 
     if(!checked) document.getElementById("notice").innerHTML = "Chưa chọn phép tính"
 
-}
-    
-        
-
-
-function handleNotice(){
-    //Kiểm tra đã chọn phép tính hay chưa
-    var pheptinh = document.getElementsByName("pheptinh");
-
-    for(var i = 0; i < genders.length; i++) {
-        if(genders[i].checked)
-            alert(genders[i].value)
-    }
 }
