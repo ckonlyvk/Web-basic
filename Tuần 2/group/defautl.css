@@ -1,0 +1,46 @@
+#khung {
+    margin-left: 650px;
+}
+
+#tennhom {
+    font-size: 50px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: yellow;
+}
+
+#thanhvien {
+    font-size: 35px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: red;
+}
+
+.dsthanhvien{
+    padding-bottom: 10px;
+    font-size: 30px;
+    margin-left: 100px;
+    color: rgba(28, 235, 21, 0.808)
+}
+
+.form{
+    width: 200px;
+    height: 350px;
+    font-size: 32px;
+    margin-left: 550px;
+    font-weight: bold;
+}
+.info{
+    width: 250px;
+    height: 350px;
+    font-size: 32px;
+    margin-left: 725px;
+    margin-top: -350px;
+}
+
+.return{
+    width: 100px;
+    height: 50px;
+    margin-left:1000px;
+    margin-top: 200px;
+}
