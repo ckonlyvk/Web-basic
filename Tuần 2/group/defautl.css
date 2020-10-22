@@ -27,15 +27,17 @@
     width: 200px;
     height: 350px;
     font-size: 32px;
-    margin-left: 550px;
+    margin-left: 200px;
     font-weight: bold;
+    float: left;
 }
 .info{
-    width: 250px;
+    width: 200px;
     height: 350px;
     font-size: 32px;
-    margin-left: 725px;
-    margin-top: -350px;
+    margin-left: 100px;
+    margin-top: 0px;
+    float: left;
 }
 
 .return{
